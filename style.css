@@ -1,0 +1,40 @@
+/* styling  */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(43, 43, 43);
+    display: flex;
+    justify-content: content;
+    align-items: center;
+    font-family: 'Comfortaa', cursive;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: content;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    animation: loader 1s linear infinite;
+}
+
+@keyframes loader {
+    0% {
+        filter: brightness(250%);
+    }
+    100% {
+        filter: brightness(160%);
+    }
+}
+
+h2 {
+    color: #fff;
+}
